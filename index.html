@@ -2,6 +2,7 @@
 <html>  
     <head>
         <title>Pharmacy Refill Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 <style>
     body {
@@ -20,6 +21,8 @@
         border-radius: 12px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         width: 350px;
+        max-width: 90%;
+        box-sizing: border-box;
     }
 
     input {
@@ -75,6 +78,30 @@
         text-align: center;
         margin-top: 15px;
         line-height: 1.4;
+    }
+
+    @media (max-width: 480px) {
+        .calculator {
+            width: 100%;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        .quick-days {
+            gap: 5px;
+        }
+
+        .quick-days button {
+            font-size: 12px;
+            padding: 8px 4px;
+        }
+
+        #result {
+            font-size: 20px;
+        }
     }
 </style>
     <body>
