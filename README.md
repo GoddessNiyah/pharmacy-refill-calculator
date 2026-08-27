@@ -19,9 +19,9 @@ A simple web-based pharmacy refill date calculator built with HTML, CSS, and Jav
 - JavaScript
 - GitHub Pages
 
-## Live Website
+## 🔗 Live Website
 
-This project is deployed using GitHub Pages.
+[View the Pharmacy Refill Calculator](https://goddessniyah.github.io)
 
 ## Disclaimer
 
